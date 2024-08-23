@@ -25,4 +25,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 A proposta desse projeto foi desenvolver um site onde possam descobrir um pouco mais sobre quem sou.
 
-- [Acesse o projeto finalizado, online]().
+- [Acesse o projeto finalizado, online](https://jhonnytesstt.github.io/PORTIFOLIO-ATUALIZADO/).
