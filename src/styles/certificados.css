@@ -28,25 +28,26 @@
 
 @media screen and (max-width: 1596px){
     #certificados{
-        justify-content: center;
-        display: inline-block;
+        justify-content: left;
         padding: 20px;
         flex-direction: row;
-        text-align: center;
+        text-align: left;
         margin-top: 10vh;
     }
 
+    #certificados .certificate-card{
+        border-top: none;
+    }
+
     #tecnico{
-        text-align: center;
-        width: 100%;
+        text-align: right;
+        width: 50%;
         display: block;
         margin-top: 100px;
     }
 
-    #title-certificados{
-        justify-content: center;
+    .title_certificados{
+        visibility: hidden;
     }
-
-    
 
 }

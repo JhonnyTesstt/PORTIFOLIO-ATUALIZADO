@@ -47,7 +47,7 @@
         margin: 10px;
         padding: 3px;
         border-left: 1px solid #df2424;
-        margin-top: 20vh;
+        margin-top: 10vh;
     }
 
     .content {
@@ -64,5 +64,17 @@
         top: 15px;
         width: 10px;
         height: 10px;
+    }
+}
+
+@media (max-width: 1063px){
+    .timeline{
+        height: 317px;
+    }
+}
+
+@media (max-width: 623px){
+    .timeline{
+        height: 367px;
     }
 }

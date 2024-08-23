@@ -5,7 +5,7 @@
     height: 90vh;
 }
 
-.caixa__login {
+.caixa__contato {
     width: 600px;
     padding: 40px;
     background: rgba(0, 0, 0, 0.5);
@@ -15,18 +15,18 @@
     text-align: center;
 }
 
-.caixa__login h2 {
+.caixa__contato h2 {
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
 }
 
-.caixa__login .caixa__login-input {
+.caixa__contato .caixa__contato-input {
     position: relative;
     margin-bottom: 30px;
 }
 
-.caixa__login .caixa__login-input input {
+.caixa__contato .caixa__contato-input input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -37,7 +37,7 @@
     background: transparent;
 }
 
-.caixa__login .caixa__login-input label {
+.caixa__contato .caixa__contato-input label {
     position: absolute;
     top: 0;
     left: 0;
@@ -48,15 +48,15 @@
     transition: 0.5s;
 }
 
-.caixa__login .caixa__login-input input:focus ~ label,
-.caixa__login .caixa__login-input input:valid ~ label {
+.caixa__contato .caixa__contato-input input:focus ~ label,
+.caixa__contato .caixa__contato-input input:valid ~ label {
     top: -20px;
     left: 0;
     color: #df2424;
     font-size: 12px;
 }
 
-.caixa__login form a {
+.caixa__contato form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -70,7 +70,7 @@
     letter-spacing: 4px;
 }
 
-.caixa__login a:hover {
+.caixa__contato a:hover {
     background: #df2424;
     color: #fff;
     border-radius: 5px;
@@ -78,12 +78,12 @@
         0 0 100px #df2424;
 }
 
-.caixa__login a span {
+.caixa__contato a span {
     position: absolute;
     display: block;
 }
 
-.caixa__login a span:nth-child(1) {
+.caixa__contato a span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -102,7 +102,7 @@
     }
 }
 
-.caixa__login a span:nth-child(2) {
+.caixa__contato a span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -122,7 +122,7 @@
     }
 }
 
-.caixa__login a span:nth-child(3) {
+.caixa__contato a span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -142,7 +142,7 @@
     }
 }
 
-.caixa__login a span:nth-child(4) {
+.caixa__contato a span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
